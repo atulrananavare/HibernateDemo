@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.to.Player" table = "Player_Details">
+   		<id name="playerId" column="playerId" type="int"></id>
+   		<property name="playerName" column="Player_Name" type="string"></property>
+   		<property name="teamName" column="Team_Name" type="String"></property>
+   		<property name="age" column="Player_Age" type="int"></property>
+ 	</class>
+</hibernate-mapping>

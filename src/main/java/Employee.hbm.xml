@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.orm.hibernate.ormbasics.Employee" table = "EMP_INFO">
+   		<id name="empId" column="EMP_ID" type="int"></id>
+   		<property name="empName" column="EMP_NAME" type="string"></property>
+   		<property name="empAge" column="EMP_AGE" type="int"></property>
+   		<property name="empEmail" column="EMP_EMAIL" type="string"></property>
+   		<property name="empRole" column="EMP_ROLE" type="string"></property>
+ 	</class>
+</hibernate-mapping>
